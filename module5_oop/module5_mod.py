@@ -7,6 +7,6 @@ class IntegerStore:
 
     def find_num(self, target):
         if target in self.nums:
-            return self.nums.index(target)
+            return self.nums.index(target) + 1 #1 indexed
   
         return -1
